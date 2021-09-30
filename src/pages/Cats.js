@@ -11,7 +11,7 @@ const Cats = () =>
 
 const url = "https://api.pexels.com/v1/search?query=kitten&per_page=8&page=1";
 const apiKey = "563492ad6f91700001000001d626efa7dbb7479f9e735f60bae06feb";   
-const localurl = "http://myjson.dit.upm.es/api/bins/th2";
+const localurl = "https://myjson.dit.upm.es/api/bins/th2";
 const[items,setItem] = useState([]);
 const context = useContext(MyContext);
 
